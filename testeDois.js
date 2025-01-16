@@ -1,6 +1,6 @@
 //OBS: O comando parse é responsável por converter uma STRING para um outro tipo de várial como INT, FLOAT ou JSON para um objeto javascript.
 
-// 1. Perguntar o dia da semana e mostrar mensagem correspondente 
+// 1. Perguntar o dia da semana e mostrar mensagem correspondente e apresentar um alerta
 const diaSemana = prompt("Qual é o dia da semana?"); 
 if (diaSemana.toLowerCase() === "sábado" || diaSemana.toLowerCase() === "domingo") 
     { alert("Bom fim de semana!"); 
